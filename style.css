@@ -6,15 +6,16 @@
 html{
     font-size: 62.5%;
 }
+
+
+/* ====================--- header section is start here --========================= */
 .container{
     height: 58rem;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 2rem;
     background-image: url(./img/top-banner.png);
-    /* background-image: linear-gradient(rgba(141, 221, 255, 0.1),rgba(143, 239, 250, 0.3)),url(./img/top-banner.png); */
     background-repeat: no-repeat;
-    /* border: 1px solid green; */
 }
 .half-width{
     margin-top: 15%;
@@ -25,11 +26,9 @@ html{
 .half-widthS{
     margin: 55% 3%;
     padding-right:9%; 
-
 }
 .half-widthS img{
     width: 100%;
-    
 }
 h1{
     margin-bottom: 1rem;
@@ -79,11 +78,11 @@ h3 span{
 .button:hover{
     background-image: linear-gradient(to right, #ffbf49, rgb(255, 100, 73));
 }
+/* ====================--- header section is end here --========================= */
 
 
 
-/* dreammmmmmmmmmmm---------------------------------------- */
-
+/* ====================--- dream section is start here --========================= */
 .dream-sec{
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -106,10 +105,12 @@ h3 span{
     grid-column-start: 2;
     grid-column-end: 4;
 }
-h2{
+.dream-secHead{
     font-size: 3rem;
     margin-bottom: .6rem;
-
+    background-image: linear-gradient(to left, tomato, orange, tomato);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .dream-p{
     margin-top: 1.2rem;
@@ -134,4 +135,85 @@ h2{
 .resume-btn:hover{
         background-image: linear-gradient(to right, #ffbf49, rgb(255, 100, 73));
 }
+/* ====================--- dream section is end here --========================= */
 
+
+
+/* ====================--- expeerience section is start here --========================= */
+.experience-secHead{
+    margin-top: 11.2rem;
+    margin-bottom: 3.5rem;
+    font-size: 4rem;
+    text-align: center;
+    background-image: linear-gradient(to left, tomato, orange, tomato);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.experience-sec{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 6rem;
+    padding-bottom: 12rem;
+    background-image: url(./img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-sec h2{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.experience-sec h4{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: orange;
+}
+.experience-sec p{
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    width: 85%;
+}
+.left-div{
+    padding: 3.5rem;
+    border-radius: 12px;
+    border-left: 5px solid orange;
+background: transparent;
+box-shadow:  5px 5px 18px #9b9b9b,
+             -5px -5px 18px #ffffff;
+    margin-left: 16%;
+    height: 25rem;
+    transition-duration: .5s;
+}
+.left-div:hover{
+    transform: scale(1.1,1.1);
+}
+.left-div::before{
+    content: "";
+    height: 100%;
+    width: 2%;
+    background-color: orange;
+}
+.right-div{
+    padding: 3.5rem;
+    border-radius: 12px;
+    border-left: 5px solid orange;
+background: transparent;
+box-shadow:  5px 5px 18px #9b9b9b,
+             -5px -5px 18px #ffffff;
+             margin-right: 15%;
+             height: 25rem;
+    transition-duration: .5s;
+}
+.right-div:hover{
+    transform: scale(1.1,1.1);
+}
+/* ====================--- expeerience section is end here --========================= */
+
+
+/* ====================--- footer section is here --========================= */
+footer p{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 1rem 0;
+}
+/* ====================================--- THE--END --=============================================== */
