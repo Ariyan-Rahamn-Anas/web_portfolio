@@ -6,6 +6,31 @@
 html{
     font-size: 62.5%;
 }
+.container{
+    height: 58rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2rem;
+    background-image: url(./img/top-banner.png);
+    /* background-image: linear-gradient(rgba(141, 221, 255, 0.1),rgba(143, 239, 250, 0.3)),url(./img/top-banner.png); */
+    background-repeat: no-repeat;
+    /* border: 1px solid green; */
+}
+.half-width{
+    margin-top: 15%;
+    margin-left: 9%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.half-widthS{
+    margin: 55% 3%;
+    padding-right:9%; 
+
+}
+.half-widthS img{
+    width: 100%;
+    
+}
 h1{
     margin-bottom: 1rem;
 }
@@ -19,6 +44,8 @@ h1 span{
     font-size: 4rem;    
 }
 .name span{
+    font-size: 6rem;
+    font-family: 'Great Vibes', cursive;
     background-image: linear-gradient(to left, tomato, orange, tomato);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -30,9 +57,18 @@ h3{
 h3 span{
     color: orange;
 }
-button{
+.header-p{
+    line-height: 1.5;
+    font-size: 1.5rem;
+    text-align: justify;
     margin-top: 2rem;
-    padding:1rem  1.5rem;
+}
+.button{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 2.5rem;
+    padding:.8rem 1.8rem;
     border: none;
     font-size: 1.8rem;
     border-radius: .4rem;
@@ -40,28 +76,62 @@ button{
     transition: all .23s;
     cursor: pointer;
 }
-button:hover{
+.button:hover{
     background-image: linear-gradient(to right, #ffbf49, rgb(255, 100, 73));
+}
+
+
+
+/* dreammmmmmmmmmmm---------------------------------------- */
+
+.dream-sec{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 1rem;
+    background-image: url(./img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.half-widthh{
+    margin-left: 18%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.half-widthh img{
+    width: 100%;
+}
+.half-widthSS{
+    margin: 5% 3%;
+    padding-right:9%; 
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+h2{
+    font-size: 3rem;
+    margin-bottom: .6rem;
 
 }
-p{
-    line-height: 1.6;
+.dream-p{
+    margin-top: 1.2rem;
+    padding-right:3rem;
+    line-height: 1.5;
     font-size: 1.5rem;
     text-align: justify;
-    margin-top: 2rem;
 }
-.container{
-    margin: 2% 3%;
-    padding: 2% 3%;
+.resume-btn{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 2.5rem;
+    padding:.8rem 1.8rem;
+    border: none;
+    font-size: 1.8rem;
+    border-radius: .4rem;
+    background-image: linear-gradient(to left, #ffbf49, rgb(255, 100, 73));
+    transition: all .23s;
+    cursor: pointer;
 }
-.header-sec{
-    padding-right: 2rem;
-    width: 60%;
-    float: left;
-    margin-top: 7rem;
+.resume-btn:hover{
+        background-image: linear-gradient(to right, #ffbf49, rgb(255, 100, 73));
+}
 
-}
-.banner-sec img{
-    width: 100%;
-    width: 40%;
-}
