@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+h1{
+    margin-bottom: 1rem;
+}
+h1 span{
+    color: orange;
+}
+.welcomeMsg{
+    font-size: 2.5rem;
+}
+.name{
+    font-size: 4rem;    
+}
+.name span{
+    background-image: linear-gradient(to left, tomato, orange, tomato);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h3{
+    font-size: 2rem;
+    margin-bottom: .2rem;
+}
+h3 span{
+    color: orange;
+}
+button{
+    margin-top: 2rem;
+    padding:1rem  1.5rem;
+    border: none;
+    font-size: 1.8rem;
+    border-radius: .4rem;
+    background-image: linear-gradient(to left, #ffbf49, rgb(255, 100, 73));
+    transition: all .23s;
+    cursor: pointer;
+}
+button:hover{
+    background-image: linear-gradient(to right, #ffbf49, rgb(255, 100, 73));
+
+}
+p{
+    line-height: 1.6;
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-top: 2rem;
+}
+.container{
+    margin: 2% 3%;
+    padding: 2% 3%;
+}
+.header-sec{
+    padding-right: 2rem;
+    width: 60%;
+    float: left;
+    margin-top: 7rem;
+
+}
+.banner-sec img{
+    width: 100%;
+    width: 40%;
+}
