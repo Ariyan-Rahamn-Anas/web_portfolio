@@ -11,9 +11,9 @@ html{
 /* ====================--- header section is start here --========================= */
 .container{
     height: 58rem;
+    margin-bottom: 15rem;
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 2rem;
+    grid-template-columns: 100rem 50rem 0rem;
     background-image: url(./img/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -21,14 +21,18 @@ html{
     margin-top: 15%;
     margin-left: 9%;
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 2;
+
 }
 .half-widthS{
-    margin: 55% 3%;
-    padding-right:9%; 
+    margin: 22% 0%;
+    padding-right:6%; 
+
+
 }
 .half-widthS img{
     width: 100%;
+
 }
 h1{
     margin-bottom: 1rem;
@@ -37,7 +41,7 @@ h1 span{
     color: orange;
 }
 .welcomeMsg{
-    font-size: 2.5rem;
+    font-size: 3.3rem;
 }
 .name{
     font-size: 4rem;    
@@ -58,9 +62,10 @@ h3 span{
 }
 .header-p{
     line-height: 1.5;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: justify;
     margin-top: 2rem;
+    padding-right: 1rem;
 }
 .button{
     color: black;
@@ -92,18 +97,19 @@ h3 span{
     background-position: right;
 }
 .half-widthh{
-    margin-left: 18%;
     grid-column-start: 1;
     grid-column-end: 2;
+    padding-left: 6%;
 }
 .half-widthh img{
     width: 100%;
+
 }
 .half-widthSS{
     margin: 5% 3%;
-    padding-right:9%; 
     grid-column-start: 2;
     grid-column-end: 4;
+    padding-right: 12rem;
 }
 .dream-secHead{
     font-size: 3rem;
@@ -116,7 +122,7 @@ h3 span{
     margin-top: 1.2rem;
     padding-right:3rem;
     line-height: 1.5;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: justify;
 }
 .resume-btn{
@@ -141,8 +147,8 @@ h3 span{
 
 /* ====================--- expeerience section is start here --========================= */
 .experience-secHead{
-    margin-top: 11.2rem;
-    margin-bottom: 3.5rem;
+    margin-top: 15rem;
+    margin-bottom: 4rem;
     font-size: 4rem;
     text-align: center;
     background-image: linear-gradient(to left, tomato, orange, tomato);
@@ -169,19 +175,20 @@ h3 span{
 }
 .experience-sec p{
     text-align: justify;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
+    opacity: .6;
     line-height: 1.4;
     width: 85%;
 }
 .left-div{
     padding: 3.5rem;
     border-radius: 12px;
-    border-left: 5px solid orange;
+    border-left: 6px solid #00A3F4;
 background: transparent;
 box-shadow:  5px 5px 18px #9b9b9b,
              -5px -5px 18px #ffffff;
-    margin-left: 16%;
-    height: 25rem;
+    margin-left: 15%;
+    height: 30rem;
     transition-duration: .5s;
 }
 .left-div:hover{
@@ -196,13 +203,14 @@ box-shadow:  5px 5px 18px #9b9b9b,
 .right-div{
     padding: 3.5rem;
     border-radius: 12px;
-    border-left: 5px solid orange;
+    border-right: 6px solid #00A3F4;
 background: transparent;
 box-shadow:  5px 5px 18px #9b9b9b,
              -5px -5px 18px #ffffff;
              margin-right: 15%;
-             height: 25rem;
+    height: 30rem;
     transition-duration: .5s;
+    margin-right: 15%;
 }
 .right-div:hover{
     transform: scale(1.1,1.1);
